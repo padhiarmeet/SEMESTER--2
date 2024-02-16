@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            border: 1px solid black;
+            height: 90vh;
+            position: relative;
+        }
+        .ns{
+            font-size:40px;
+            animation-name: lol;
+            position: absolute;
+            animation-duration: 50s;
+            animation-iteration-count: infinite;
+           font-weight: 200;
+           text-shadow: 2px 2px 8px #5c5151;
+        }
+        @keyframes lol{
+            0%{
+                top: 0%;
+                left: 0%;
+                color: red;
+                
+            }
+            25%{
+                top: 30%;
+                left: 88%;
+                color: green;
+            }
+            50%{
+                top: 95%;
+                left: 50%;
+                color: blue;
+            }
+            75%{
+                top: 30%;
+                left: 0%;
+                color: pink;
+            }
+            100%{
+                top: 0%;
+                left: 20%;
+                color: rgb(13, 130, 232);
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="ns">NO SIGNAL</div>
+    </div>
+</body>
+</html>

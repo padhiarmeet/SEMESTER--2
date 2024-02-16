@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            border: 1px solid black;
+            height: 96vh;
+            position: relative;
+            background-color: antiquewhite;
+        }
+        .ns{
+            height: 10%;
+            width: 5%;
+            border-radius: 50%;
+            animation-name: lol;
+            position: absolute;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+           background-color: pink;
+           animation-timing-function: linear;
+        }
+        @keyframes lol{
+           0%{
+            left: 0%;
+            top: 50%;
+           }
+           25%{
+            top: 50%;
+            left: 95%;
+           }
+           50%{
+            left: 0%;
+            top: 50%;
+           }
+           75%{
+            top: 50%;
+            left: 95%;
+           }
+           100%{
+            top: 50%;
+            left: 50%;
+           }
+    }
+        .ns1{
+            height: 10%;
+            width: 5%;
+            border-radius: 50%;
+            animation-name: lol1;
+            position: absolute;
+            animation-duration: 8s;
+            animation-iteration-count: infinite;
+           background-color:firebrick;
+           animation-delay: 2s;
+           
+        }
+        @keyframes lol1{
+           0%{
+            top: 50%;
+            left: 95%;
+           }
+           25%{
+            top: 0%;
+            left: 50%;
+           }
+           50%{
+            left: 0%;
+            top: 50%;
+           }
+           75%{
+            top: 50%;
+            left: 95%;
+           }
+           100%{
+            top: 50%;
+            left: 50%;
+           }
+        }
+        .ns2{
+            height: 10%;
+            width: 5%;
+            border-radius: 50%;
+            animation-name: lol2;
+            position: absolute;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+           background-color:burlywood;
+           animation-timing-function: linear;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="ns"></div>
+        <div class="ns1"></div>
+        <div class="ns2"></div>
+    </div>
+</body>
+</html>
