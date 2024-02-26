@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Psoudo Class</title>
+    <style>
+        a{
+            color: red;
+        }
+        a:visited{
+            color: orange;
+
+        }
+        a:active{
+            background-color: antiquewhite;
+        }
+        p::first-line{
+            color: brown;
+            font-size: 40px;
+        }
+        .box3 p::first-letter{
+            font-size: 50px;
+            color: darkolivegreen;
+        }
+        ::selection{
+            background-color:yellow;
+            color:brown 
+        }
+        .box4{
+            height: 100px;
+            width: 100px;
+            background-color: darksalmon;
+            box-shadow: 2px;
+            
+        }
+        .box4:hover{
+            height: 150px;
+            width: 150px;
+            background-color: beige;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="box">
+            <a href="#@" style="text-decoration: none;">Click Here..!!</a>
+        </div>
+        <div class="box2">
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus fuga, ab reprehenderit asperiores, dolore voluptatum consequuntur quaerat vero, assumenda atque necessitatibus ex quis molestias ipsa inventore. Repudiandae voluptate enim Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque accusantium magnam vero assumenda quos, quae reiciendis ipsa neque dignissimos explicabo sint nostrum aspernatur tempora adipisci, ullam laudantium voluptate hic numquam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed illum repudiandae accusamus, necessitatibus ipsam quo cupiditate id vitae impedit ducimus eum, possimus iusto tempore doloribus! Quas ducimus eveniet dolorum illo.</p>
+        </div>
+        <div class="box3">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod mollitia rerum veritatis ut aspernatur blanditiis nulla consequuntur fugiat saepe, odit exercitationem sed vitae vero labore aliquam enim sit commodi iure! Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo voluptatem iure eligendi, neque quod enim optio dolores eaque! Similique sapiente provident neque repellendus? Sit eveniet tempora adipisci consequuntur, sunt nihil. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi soluta molestias vero voluptate officia. Rem animi non voluptatibus officiis, cum adipisci deleniti et temporibus, laborum minima ipsa, earum quis autem.</p>
+        </div>
+        <div class="box4">
+
+        </div>
+    </div>
+</body>
+</html>                 
