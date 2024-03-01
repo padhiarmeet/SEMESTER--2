@@ -1,35 +1,41 @@
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Page..</title>
     <style>
-        
-        *{
+        * {
             /* padding: 0%;
             margin: 0%; */
         }
-        .main{
+
+        .main {
             box-sizing: border-box;
             height: 99vh;
         }
-        .nevbar{
+
+        .nevbar {
             border-bottom: 8px solid green;
             height: 17%;
             width: 100%;
             background-color: gray;
         }
-        .logo{
+
+        .logo {
             width: 20%;
             margin-left: 1%;
             float: left;
         }
-        .logo img{
-            height: 10%;
+
+        .logo img {
+            height: 50%;
             width: 40%;
         }
-        .nevBottons{
+
+        .nevBottons {
             display: flex;
             justify-content: space-around;
             width: 30%;
@@ -37,29 +43,91 @@
             margin-top: 1%;
             color: white;
         }
-        .text{
+
+        .text {
             color: cyan;
             width: 100%;
-            font-size: 20px;
-            vertical-align: bottom;
+            font-size: 20px;        
             float: left;
         }
-        .content1{
-          border: 1px solid green;
-          height: 20%;
-          margin-top: 0.50%;
+
+        .content1 {
+            border: 1px solid green;
+            height: 25%;
+            margin-top: 0.50%;
+            display: flex;
+            justify-content: space-between;
         }
-        .maroPhoto{
+
+        .maroPhoto {
             width: 15%;
             height: 90%;
             margin: 0.40%;
+            /*--------------------------------------------------------*/
             background-image: url("./window.jpg");
-            background-size:cover;
+            background-size: cover;
+            background-color: green;
+            float: left;
+            flex-wrap: wrap;
         }
-        
 
+        .textMaro {
+            width: 50%;
+
+        }
+
+        .button {
+            background-color: darkturquoise;
+            height: 30%;
+            width: 20%;
+            border-radius: 20px;
+        }
+
+        .content2 {
+            height: 53%;
+            margin-top: 9px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .left {
+            width: 50%;
+        }
+
+        .right {
+            width: 50%;
+            margin-left: 2%;
+        }
+
+        .left h2 {
+            margin-top: 1px;
+        }
+
+        .right h2 {
+            margin-top: 1px;
+            margin-bottom: 2%;
+        }
+
+        .one {
+            height: 26.5%;
+            margin-bottom: 2%;
+            display: flex;
+        }
+
+        .img {
+            background-image: url("./photo1.jpg");
+            height: 95%;
+            width: 25%;
+            margin-right: 2%;
+
+        }
+        .date{
+            border: 1px dotted black;
+            width: 15%;
+        }
     </style>
 </head>
+
 <body>
     <div class="main">
         <div class="nevbar">
@@ -77,11 +145,64 @@
         </div>
         <div class="content1">
             <div class="maroPhoto">
-                <!-- <img src="./window.jpg"> -->
+
             </div>
-            <div class="textMaro"></div>
+            <div class="textMaro">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus ratione, aliquam optio nisi quo
+                    illum atque voluptas repellendus adipisci soluta quibusdam dignissimos! Ab impedit magni, quod autem
+                    perspiciatis ipsam maiores!</p>
+                <input class="button" type="button" value="Read More">
+            </div>
+
         </div>
-        <div class="content2"></div>
+        <div class="content2">
+            <div class="left">
+                <h2>Welcome to our WEBSITE!</h2>
+                <a><b>This is a professional XHTML/CSS layout provided by <u>TemplateMo.com</u> for free. It can be used
+                        for any purpose, and credit is given to <u>Free Photos</u> for the photos.</b></a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis animi alias ut pariatur
+                    incidunt iusto, placeat sapiente, quaerat accusamus ducimus vel tenetur? Quos repellendus fuga
+                    voluptatem explicabo, quae ducimus?</p>
+                <ul>
+                    <li>Vestibulum penatibus nunc dui adipiscing convallis bulum parturient suspendisse.</li>
+                    <li>Aenean dignissim vulputate sem tristique ut amet semper</li>
+                </ul>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores iure eius, eum inventore voluptate
+                    dignissimos, modi officia similique distinctio adipisci incidunt praesentium. At voluptatum
+                    consectetur consequatur officia sunt assumenda mollitia.
+                    Vero delectus hic quidem impedit voluptates aut? Voluptates impedit inventore deserunt dolore quidem
+                    expedita perferendis, consectetur hic sequi sunt iste, totam a odio. Ipsum consectetur ex voluptates
+                    laboriosam commodi minus?</p>
+
+            </div>
+
+            <div class="right">
+                <h2>Letest News</h2>
+                <div class="one">
+                    <div class="img"></div>
+                    <div class="con">
+                        <div class="date">OCT 29,2024</div>
+                        <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolores aliquid officiis voluptates nihil optio fuga magnam. Esse harum ab, unde, distinctio in illum expedita repudiandae quasi dolore neque sunt!</div>
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="img"></div>
+                    <div class="con">
+                        <div class="date">OCT 29,2024</div>
+                        <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolores aliquid officiis voluptates nihil optio fuga magnam. Esse harum ab, unde, distinctio in illum expedita repudiandae quasi dolore neque sunt!</div>
+                    </div>
+                </div>
+                <div class="one">
+                    <div class="img"></div>
+                    <div class="con">
+                        <div class="date">OCT 29,2024</div>
+                        <div class="lorem">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam dolores aliquid officiis voluptates nihil optio fuga magnam. Esse harum ab, unde, distinctio in illum expedita repudiandae quasi dolore neque sunt!</div>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
