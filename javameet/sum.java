@@ -25,7 +25,8 @@ public class sum{
       else{
         System.out.println("odd chhe bhai...");
       }
-    
+      mc.close();
+    sc.close();
       
     }
 }

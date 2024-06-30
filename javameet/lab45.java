@@ -6,13 +6,12 @@ public class lab45 {
    
     System.out.println("enter A String= ");
     String s=sc.nextLine();
-    int sum=0;
+
    
     for(int i=(s.length())/2;i<s.length();i++){
         System.out.println(s.charAt(i));
     }
     System.out.println(s.length());
-    sc.close(); sc.close();
-
-}
+    sc.close();
+    }
 }

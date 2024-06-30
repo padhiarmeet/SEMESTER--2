@@ -6,6 +6,7 @@ public class typc {
         int b=85;
         int c=97;
         double per=((a+b+c)/300.0)*100;
-        System.out.println(per);
+        double m=Math.sin(30);
+        System.out.println(m);
     }
 }
